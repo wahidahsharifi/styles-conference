@@ -1,0 +1,42 @@
+{
+   "rewrites": [
+      {
+         "source": "/speakers",
+         "destination": "/speakers.html"
+      },
+      {
+         "source": "/schedule",
+         "destination": "/schedule.html"
+      },
+      {
+         "source": "/register",
+         "destination": "/register.html"
+      },
+      {
+         "source": "/venue",
+         "destination": "/venue.html"
+      }
+   ],
+   "redirects": [
+      {
+         "source": "/speakers.html",
+         "destination": "/speakers",
+         "permanent": true
+      },
+      {
+         "source": "/schedule.html",
+         "destination": "/schedule",
+         "permanent": true
+      },
+      {
+         "source": "/register.html",
+         "destination": "/register",
+         "permanent": true
+      },
+      {
+         "source": "/venue.html",
+         "destination": "/venue",
+         "permanent": true
+      }
+   ]
+}
